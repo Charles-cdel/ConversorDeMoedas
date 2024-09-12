@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CambioDeMoedas", "CambioDeMoedas.csproj", "{89A84E19-0567-48D4-BDE0-AE2FCCA3A37C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A84E19-0567-48D4-BDE0-AE2FCCA3A37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A84E19-0567-48D4-BDE0-AE2FCCA3A37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A84E19-0567-48D4-BDE0-AE2FCCA3A37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A84E19-0567-48D4-BDE0-AE2FCCA3A37C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D914E5FE-3B1A-4128-90F3-295D3DEEB642}
+	EndGlobalSection
+EndGlobal

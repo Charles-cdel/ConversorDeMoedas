@@ -1,0 +1,15 @@
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/obj/Debug/net8.0/CambioDeMoedas.GeneratedMSBuildEditorConfig.editorconfig
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/obj/Debug/net8.0/CambioDeMoedas.AssemblyInfoInputs.cache
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/obj/Debug/net8.0/CambioDeMoedas.AssemblyInfo.cs
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/obj/Debug/net8.0/CambioDeMoedas.csproj.CoreCompileInputs.cache
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/obj/Debug/net8.0/CambioDeMoedas.sourcelink.json
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/bin/Debug/net8.0/CambioDeMoedas
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/bin/Debug/net8.0/CambioDeMoedas.deps.json
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/bin/Debug/net8.0/CambioDeMoedas.runtimeconfig.json
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/bin/Debug/net8.0/CambioDeMoedas.dll
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/bin/Debug/net8.0/CambioDeMoedas.pdb
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/obj/Debug/net8.0/CambioDeMoedas.dll
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/obj/Debug/net8.0/refint/CambioDeMoedas.dll
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/obj/Debug/net8.0/CambioDeMoedas.pdb
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/obj/Debug/net8.0/CambioDeMoedas.genruntimeconfig.cache
+/home/carlos-alberto/Documentos/Carlos/C#/CambioDeMoedas/obj/Debug/net8.0/ref/CambioDeMoedas.dll
