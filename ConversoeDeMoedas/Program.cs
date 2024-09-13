@@ -6,6 +6,16 @@ namespace ConversorDeMoedas
     {
         static void Main(string[] args)
         {
+            GerenciadorDeUsuarios gerenciadorDeUsuarios = new GerenciadorDeUsuarios();
+            Usuario usuarioLogado = null;
+
+            // Autenticação (login ou cadastro)
+            while (usuarioLogado == null)
+            {
+                usuarioLogado = gerenciadorDeUsuarios.LoginOuCadastrar();
+            }
+
+
             string continuar;
 
             do{

@@ -2,10 +2,10 @@ namespace ConversorDeMoedas;
 
 public class Usuario
 {
-    public string nome { get; set; };
-    public double SaldoDolar{ get; set; };
-    public double SaldoEuro{ get; set; };
-    public double SaldoReal{ get; set; };
+    public string nome { get; set;};
+    public double SaldoDolar{ get; set;};
+    public double SaldoEuro{ get; set;};
+    public double SaldoReal{ get; set;}
 
     public Usuario(string nome)
 
