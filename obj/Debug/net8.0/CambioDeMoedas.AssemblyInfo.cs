@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CambioDeMoedas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44ac05a9d47aebd765c3a912c8444f6c08a6a3d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb192dc854e90b17a7ee887b1b984e9e683473e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CambioDeMoedas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CambioDeMoedas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
