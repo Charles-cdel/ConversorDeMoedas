@@ -9,11 +9,11 @@ namespace ConversorDeMoedas
             GerenciadorDeUsuarios gerenciadorDeUsuarios = new GerenciadorDeUsuarios();
             Usuario usuarioLogado = null;
 
-            // Menu inicial
+            // Menu principal
             bool continuarMenu = true;
             while (continuarMenu)
             {
-                Console.WriteLine("Escolha uma opção:");
+                Console.WriteLine("\nEscolha uma opção:");
                 Console.WriteLine("1 - Login ou Cadastrar Usuário");
                 Console.WriteLine("2 - Listar Usuários");
                 Console.WriteLine("3 - Atualizar Usuário");
@@ -24,30 +24,33 @@ namespace ConversorDeMoedas
                 switch (escolha)
                 {
                     case 1:
+                        // Login ou cadastro
+                        usuarioLogado = null; // Reinicia a variável de usuário logado
+
                         // Autenticação (login ou cadastro)
                         while (usuarioLogado == null)
                         {
                             usuarioLogado = gerenciadorDeUsuarios.LoginOuCadastrar();
                         }
 
+                        // Menu de conversão de moedas
                         string continuarConversao;
                         do
                         {
-                            Console.WriteLine($"\nBem-vindo ao Conversor de Moedas, {usuarioLogado.Nome}!");
-                            usuarioLogado.MostrarSaldo(); // Exibe o saldo inicial do usuário
+                            Console.WriteLine("Bem-vindo ao Conversor de Moedas, {usuarioLogado.Nome}!");
+                            usuarioLogado.MostrarSaldo(); // Exibe o saldo atual do usuário
 
-                            Console.WriteLine("\nEscolha a moeda de origem:");
+                            // Escolha das moedas e valor a converter
+                            Console.WriteLine("Escolha a moeda de origem:");
                             Console.WriteLine("1 - Dólar (USD)");
                             Console.WriteLine("2 - Euro (EUR)");
                             Console.WriteLine("3 - Real (BRL)");
-
                             int moedaOrigem = int.Parse(Console.ReadLine());
 
                             Console.WriteLine("Escolha a moeda de destino:");
                             Console.WriteLine("1 - Dólar (USD)");
                             Console.WriteLine("2 - Euro (EUR)");
                             Console.WriteLine("3 - Real (BRL)");
-
                             int moedaDestino = int.Parse(Console.ReadLine());
 
                             Console.WriteLine("Insira o valor a ser convertido:");
@@ -62,6 +65,10 @@ namespace ConversorDeMoedas
                             continuarConversao = Console.ReadLine().ToUpper();
 
                         } while (continuarConversao == "S");
+
+                        // Realiza logoff após o usuário escolher não continuar
+                        Console.WriteLine("Você foi desconectado.");
+                        usuarioLogado = null;
                         break;
 
                     case 2:

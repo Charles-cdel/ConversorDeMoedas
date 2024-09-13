@@ -66,10 +66,19 @@ namespace ConversorDeMoedas
 
         public void ListarUsuarios()
         {
-            Console.WriteLine("Lista de Usuários Registrados: ");
-            foreach (var usuario in usuarios)
+            if(usuarios.Count == 0)
             {
-                Console.WriteLine(usuario.Nome);
+                Console.WriteLine("Nenhum usuário encontrado.");
+            }
+            else
+            {
+
+                Console.WriteLine("Lista de Usuários Registrados: ");
+                foreach (var usuario in usuarios)
+                {
+                    Console.WriteLine($"Nome: {usuario.Nome}");
+                }
+
             }
         }
 
@@ -131,7 +140,7 @@ namespace ConversorDeMoedas
             {
                 usuarios.Remove(usuario);
                 SalvarUsuariosNoArquivo();
-                Console.WriteLine($"Usuário {nome} removido com sucesso!");
+                Console.WriteLine("Usuário {nome} removido com sucesso!");
             }
             else
             {
@@ -143,7 +152,7 @@ namespace ConversorDeMoedas
         {
             if (File.Exists(caminhoArquivo))
             {
-                var linhas = File.ReadAllLines(caminhoArquivo);
+                var linhas = File.ReadAllLines("usuarios.txt");
 
                 foreach (var linha in linhas)
                 {
@@ -170,7 +179,7 @@ namespace ConversorDeMoedas
 
         private void SalvarUsuariosNoArquivo()
         {
-            using (StreamWriter writer = new StreamWriter(caminhoArquivo))
+            using (StreamWriter writer = new StreamWriter("usuarios.txt"))
             {
                 foreach (var usuario in usuarios)
                 {
